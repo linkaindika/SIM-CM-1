@@ -3062,13 +3062,13 @@ border-top: 1px solid #333456;
 <p>Database <strong>Sakila</strong> merupakan <em>sample database</em>
 yang dikembangkan oleh MySQL sebagai simulasi sistem manajemen penyewaan
 DVD. Database ini mencakup informasi lengkap mengenai film, pelanggan,
-staf, transaksi rental, hingga pembayaran — menjadikannya sumber data
-yang kaya untuk eksplorasi analitik bisnis.</p>
+staf, transaksi rental, hingga pembayaran menjadikannya sumber data yang
+kaya untuk eksplorasi analitik bisnis.</p>
 <p>Dalam konteks bisnis penyewaan film, <strong>revenue</strong>
 (pendapatan) merupakan indikator utama keberhasilan operasional.
-Memahami pola revenue — dari kategori film mana yang paling
-menguntungkan, bagaimana tren bulanannya, hingga bagaimana perbandingan
-antar toko — memberikan wawasan strategis bagi pengambil keputusan.</p>
+Memahami pola revenue dari kategori film mana yang paling menguntungkan,
+bagaimana tren bulanannya, hingga bagaimana perbandingan antar toko
+memberikan wawasan strategis bagi pengambil keputusan.</p>
 </div>
 </div>
 <div id="tujuan-analisis" class="section level2" number="1.2">
@@ -3572,7 +3572,7 @@ regresi linear menunjukkan kemiringan <strong>negatif yang sangat
 landai</strong>, mengindikasikan bahwa semakin tinggi harga sewa,
 frekuensi rental cenderung sedikit menurun. Namun sebaran titik yang
 sangat lebar pada setiap nilai <code>rental_rate</code> menunjukkan
-bahwa hubungan ini <strong>sangat lemah</strong> — variasi frekuensi
+bahwa hubungan ini <strong>sangat lemah</strong>, variasi frekuensi
 rental lebih banyak dijelaskan oleh faktor lain di luar harga sewa.
 <em>Confidence interval</em> (area abu gelap) yang lebar pada
 ujung-ujung garis juga mengonfirmasi ketidakpastian estimasi yang
@@ -3635,7 +3635,7 @@ tinggi cenderung sedikit <em>lebih jarang</em> disewa, namun hubungan
 ini hampir tidak berarti secara praktis.</p></li>
 <li><p><strong>Nilai <span class="math inline">\(p\text{-value} =
 0{,}0099 &lt; \alpha = 0{,}05\)</span></strong>: <span class="math inline">\(H_0\)</span> <strong>ditolak</strong>. Secara
-statistik, korelasi ini signifikan — namun perlu diingat bahwa dengan
+statistik, korelasi ini signifikan namun perlu diingat bahwa dengan
 <span class="math inline">\(n = 958\)</span>, uji statistik sangat
 sensitif dan mampu mendeteksi korelasi yang sangat kecil
 sekalipun.</p></li>
@@ -3646,7 +3646,7 @@ hubungan negatif memang ada, meskipun sangat kecil besarnya.</p></li>
 statistik, nilai <span class="math inline">\(|r| = 0{,}083\)</span>
 menunjukkan bahwa <code>rental_rate</code> hanya menjelaskan sekitar
 <span class="math inline">\(r^2 = 0{,}7\%\)</span> variasi frekuensi
-rental — sangat kecil. Keputusan pelanggan untuk menyewa film
+rental sangat kecil. Keputusan pelanggan untuk menyewa film
 <strong>hampir tidak dipengaruhi oleh harga</strong>. Faktor lain
 seperti genre, popularitas judul, atau ketersediaan stok jauh lebih
 menentukan.</p></li>
@@ -3677,7 +3677,7 @@ untuk mengevaluasi efektivitas operasional masing-masing toko.</p></li>
 <li><p><strong>Uji Korelasi Pearson</strong>: Diperoleh <span class="math inline">\(r = -0{,}0833\)</span> dengan <span class="math inline">\(p\text{-value} = 0{,}0099\)</span>. Korelasi
 <strong>negatif sangat lemah</strong> ini signifikan secara statistik
 (<span class="math inline">\(H_0\)</span> ditolak), namun secara praktis
-tidak bermakna — <code>rental_rate</code> hanya menjelaskan <span class="math inline">\(\approx 0{,}7\%\)</span> variasi frekuensi rental
+tidak bermakna <code>rental_rate</code> hanya menjelaskan <span class="math inline">\(\approx 0{,}7\%\)</span> variasi frekuensi rental
 (<span class="math inline">\(r^2 = 0{,}007\)</span>). Disimpulkan bahwa
 harga sewa bukan faktor penentu utama keputusan rental
 pelanggan.</p></li>
